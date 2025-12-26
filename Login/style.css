@@ -1,0 +1,109 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:"Arimo", sans-serif;
+}
+body{
+    background-image:url("bll.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+h2{
+    padding-top: 20px;
+}
+form{
+    background: white;
+    box-shadow: -1px -1px 10px 2px rgba(15, 15, 15, 0.2);
+    padding: 15px ;
+    margin-top: 20px;
+    border-radius: 7px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    height:650px;
+    margin-bottom: 2rem;
+    }
+    
+ .gen{
+    border-radius: 8px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;    
+}
+.datebirth-gen{
+    text-align: left;
+}
+.outer-part{
+    line-height:30px ;
+}
+.outer-part p{
+        opacity: 0.5; 
+}
+.datebirth-gen{
+    font-size: var(--font-size-12);
+    opacity: 0.5;
+}
+.inner-part{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+input{
+    padding: 8px;
+   outline: none;
+   border-radius: 7px;
+   border:1px solid rgba(0, 0, 0, 0.15);
+}
+.b{
+
+    padding: 10px;
+    font-size:15px;
+}
+.bb{
+    margin-top: 10px;
+    width: 90%;
+    padding: 10px;
+    font-size:15px;
+}
+.ss{
+    margin-top: 15px;
+}
+.mr{
+    display:flex;
+    justify-content: space-evenly;
+    padding:10px;
+}
+.option{
+    padding: 6px 36px 6px 12px;
+    outline: none;
+    border-radius: 7px;
+    border:1px solid rgba(0, 0, 0, 0.15);
+    padding:10px;
+    padding-left:50x;
+    padding-right: 50px;
+}
+.terms{
+    font-size: 12px;
+    color:rgb(94, 87, 87);
+    text-align: left;
+}
+.terms a{
+    color: #0D6EFD;
+}
+button{
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color:#00A400;
+    text-align: center;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.link{
+    padding-top: 15px;
+}
+.link a{
+    color: #0D6EFD;
+}

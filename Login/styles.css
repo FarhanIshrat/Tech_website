@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("bll.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+.bu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 80%;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color:#00A400;
+    text-align: center;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #1e6180;
+    transition: 2s;
+}
+
+.message {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.message a {
+    color: #0D6EFD;
+    text-decoration: none;
+}
